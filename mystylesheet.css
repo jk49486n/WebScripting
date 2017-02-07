@@ -1,0 +1,43 @@
+body
+{
+  background-color:whitesmoke;
+  color:black;
+  font-size:15px;
+}
+hr
+{
+  size:50px;
+  width:100%;
+  padding:0px;
+  margin:3px;
+}
+h1
+{
+  text-align:left;
+  font-size:40px;  
+}
+h2
+{
+  font-size:18px;
+  margin:2px;
+  color:brown;
+}
+.dates
+{
+  text-align:right;
+  vertical-align:top;
+}
+.funkytable
+{
+  width:100%;
+  text-align:center;
+}
+.heading
+{
+  font-size: 17px;
+  color:darkgoldenrod
+}
+img
+{
+  height:250px;
+}

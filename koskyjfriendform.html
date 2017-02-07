@@ -1,0 +1,93 @@
+<html>
+	<head><title>Do you want to be my friend?</title>
+		<style>
+			body
+			{
+				background-color: white;
+				color: #1b3258;
+				font-size: 26px;
+				text-align: center;
+				width: 700px;
+				margin-left: 250px;
+			}
+
+			img
+			{
+				height: 300px;
+				width: 500px
+			}
+			fieldset.box
+			{
+				background-color:lightblue;
+				color:black;
+			}
+			hr
+			{
+				padding:3px;
+				background-color: #1b3258;
+				border-color: #1b3258;
+			}
+			.background1
+			{
+				background-image: url(https://www.colourbox.com/preview/6412542-seamless-abstract-hand-drawn-waves-pattern-wavy-background-seamless-pattern-can-be-used-for-wallpaper-pattern-fills-web-page-background-surface-textures.jpg);
+				background-size: 100%;
+				color:black;
+			}
+		</style>
+	</head>
+	<body>
+	<form>
+		<fieldset class="box">
+				<legend>PERSONAL INFORMATION</legend>
+				First Name: <input type="text" name="fname" value="John"><br>
+				Last Name: <input type="text" name="lname" value="Smith"><br>
+				<p></p>
+				Gender: <br>
+				<input type="radio" name="gender" value="male">Male
+				<input type="radio" name="gender" value="female" checked>Female
+				<input type="radio" name="gender" value="Other">Other<br>
+		</fieldset>
+			<p></p>
+			<fieldset class="box">
+				<legend>PERSONALITY INFORMATION</legend>
+				What are your hobbies?
+				<select name="hobbies" multiple>
+					<option value="Dance">Dance</option>
+					<option value="WorkingOut">Working Out</option>
+					<option value="Sleeping" selected>Sleeping</option>
+					<option value="Eating">Eating</option>
+				</select>
+				<p></p>
+				If you could live anywhere where would you leave:
+				<select>
+					<optgroup label="Beaches">Beaches
+						<option><i>Bahamas</i></option>
+						<option>Malibu</option>
+						<option>Aruba</option>
+						<option>Jamaica</option>
+					</optgroup>
+					<optgroup label="Cities">Citites
+						<option><b>New York City</b></option>
+						<option>San Francisco</option>
+						<option>Miaim</option>
+						<option>London</option>
+						<option>San Diego</option>
+						<option>Paris</option>
+						<option>Kake</option>
+					</optgroup>
+				</select><br>
+				<p></p>			
+			</fieldset>
+			<br>
+			<fieldset class="background1">
+			Questions? Comments? Concerns?
+				<textarea size="500" rows="5">
+				</textarea>
+			<br>
+		<input type="submit" onclick="alert('Thank you for submitting your information!')" name"submitBut" value="Send Information">	
+		<input type="reset" name"resetBut" value="Reset Information">
+		<hr>
+		</fieldset>
+		</form>
+	</body>
+</html>
