@@ -27,12 +27,6 @@
 				background-color: #1b3258;
 				border-color: #1b3258;
 			}
-			.background1
-			{
-				background-image: url(https://www.colourbox.com/preview/6412542-seamless-abstract-hand-drawn-waves-pattern-wavy-background-seamless-pattern-can-be-used-for-wallpaper-pattern-fills-web-page-background-surface-textures.jpg);
-				background-size: 100%;
-				color:black;
-			}
 		</style>
 	</head>
 	<body>
@@ -79,15 +73,19 @@
 				<p></p>			
 			</fieldset>
 			<br>
-			<fieldset class="background1">
-			Questions? Comments? Concerns?
-				<textarea size="500" rows="5">
-				</textarea>
-			<br>
-		<input type="submit" onclick="alert('Thank you for submitting your information!')" name"submitBut" value="Send Information">	
-		<input type="reset" name"resetBut" value="Reset Information">
-		<hr>
+		<fieldset class="box">
+				Questions? Comments? Concerns?
+					<textarea size="500" rows="5">
+					</textarea>
+				<br>
+			<input type="submit" onclick="alert('Thank you for submitting your information!')" name"submitBut" value="Send Information">	
+			<input type="reset" name"resetBut" value="Reset Information">
+			<hr> 
+			<button type="button" onclick="document.getElementById('demo').innerHTML = Date()">click me to display date and time you are submitting this</button>
+			<p id="demo"></p>
 		</fieldset>
 		</form>
+
+
 	</body>
 </html>
