@@ -1,0 +1,113 @@
+-- phpMyAdmin SQL Dump
+-- version 4.6.5.1
+-- https://www.phpmyadmin.net/
+--
+-- Host: localhost:8889
+-- Generation Time: Feb 16, 2017 at 10:16 PM
+-- Server version: 5.6.34
+-- PHP Version: 7.1.0
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+--
+-- Database: `Classes`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `English`
+--
+
+CREATE TABLE `English` (
+  `student_first_name` varchar(225) NOT NULL,
+  `student_last_name` varchar(225) NOT NULL,
+  `student_id_num` int(6) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `English`
+--
+
+INSERT INTO `English` (`student_first_name`, `student_last_name`, `student_id_num`) VALUES
+('Jackie', 'Kosky', 12123123),
+('J', 'Kosky', 22222),
+('Justin', 'Kosky', 3243242),
+('Lily', 'Smith', 2333333),
+('John', 'Doe', 21121),
+('Lily', 'Doe', 11111),
+('Bill', 'Joe', 3333),
+('Bob', 'Smith', 122),
+('John ', 'Johnson', 1),
+('Liz', 'Lemon', 11111),
+('Jack', 'Done', 333),
+('Megan', 'Whatever', 4444),
+('Johnny', 'Dept', 55),
+('Tina', 'Fey', 11111),
+('Amy ', 'Pholer', 3);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `Math`
+--
+
+CREATE TABLE `Math` (
+  `student_first_name` varchar(225) NOT NULL,
+  `student_last_name` varchar(225) NOT NULL,
+  `student_id_num` int(6) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `Math`
+--
+
+INSERT INTO `Math` (`student_first_name`, `student_last_name`, `student_id_num`) VALUES
+('John', 'Doe', 3999),
+('Jamie', 'Doe', 22),
+('Lily', 'Smith', 33),
+('Jackie', 'Kosky', 888),
+('Jacqueline', 'Kk', 33444),
+('Liz', 'Lemon', 1221),
+('Tina', 'Fey', 111),
+('Amy', 'Pholer', 676),
+('Jamie', 'Smith', 111),
+('Justin', 'Kosky', 9999),
+('Jack', 'Don', 22),
+('Jenna', 'Mah', 2),
+('Jill', 'Doe', 222),
+('Pop', 'Popper', 33),
+('Ju', 'Lie', 323);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `Science`
+--
+
+CREATE TABLE `Science` (
+  `student_first_name` varchar(225) NOT NULL,
+  `student_last_name` varchar(225) NOT NULL,
+  `student_id_num` int(6) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `Science`
+--
+
+INSERT INTO `Science` (`student_first_name`, `student_last_name`, `student_id_num`) VALUES
+('Jacqueline', 'Kosky', 222),
+('Justin', 'Kosky', 22),
+('Liz', 'Lemon', 32342),
+('Jenna', 'Mah', 22),
+('Rizzlo', 'Lope', 222),
+('Jack', 'Don', 2222),
+('Amy', 'Pholer', 222222),
+('Carly', 'Rae Jep', 8787),
+('Pace', 'Setter', 222222),
+('Jul', 'Ie', 88),
+('Joe', 'Doe', 222),
+('Julie', 'Doe', 333),
+('Jamie', 'Doe', 2121),
+('Lily ', 'Doe', 111);
