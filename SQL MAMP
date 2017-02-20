@@ -111,3 +111,8 @@ INSERT INTO `Science` (`student_first_name`, `student_last_name`, `student_id_nu
 ('Julie', 'Doe', 333),
 ('Jamie', 'Doe', 2121),
 ('Lily ', 'Doe', 111);
+
+
+SELECT * FROM English WHERE student_last_name="Doe"
+SELECT * FROM Math WHERE student_last_name="Doe"
+SELECT * FROM Science WHERE student_last_name="Doe"
